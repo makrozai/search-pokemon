@@ -1,0 +1,12 @@
+.item {
+  max-width: 700px;
+  margin: 1rem auto;
+  padding: 0 1rem;
+
+  &__submit {
+    padding: 1rem 4rem !important;
+    min-height: 3.8rem;
+    margin: 1rem 0 2rem !important;
+    width: 100%;
+    }
+}

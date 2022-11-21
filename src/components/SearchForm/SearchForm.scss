@@ -1,0 +1,26 @@
+.search-form {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+  color: #494F66;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 2rem !important;
+  }
+  &__group {
+    margin: .5rem 0;
+  }
+  &__submit {
+    padding: 1rem 4rem !important;
+    min-height: 3.8rem;
+    margin-top: 2rem !important;
+    width: 100%;
+  }
+  &--mobile {
+    padding: 2rem 1rem;
+  }
+}
